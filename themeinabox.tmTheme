@@ -44,6 +44,32 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Test</string>
+			<key>scope</key>
+			<string>keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#D88958</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>variable member access</string>
+			<key>scope</key>
+			<string>variable.other</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#E3E696</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
 			<string>comment</string>
@@ -105,7 +131,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E3E696</string>
+				<string>#a4c460</string>
 			</dict>
 		</dict>
 		<dict>
@@ -129,7 +155,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#E0C843</string>
+				<string>#E0A743</string>
 			</dict>
 		</dict>
 		<dict>
@@ -142,7 +168,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#E0C843</string>
+				<string>#E0A743</string>
 			</dict>
 		</dict>
 		<dict>
@@ -218,7 +244,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#a4c460</string>
+				<string>#E3E696</string>
 			</dict>
 		</dict>
 		<dict>
@@ -395,7 +421,7 @@
 			<key>name</key>
 			<string>c C&#x2f;C++ Preprocessor Directive</string>
 			<key>scope</key>
-			<string>meta.preprocessor.c keyword</string>
+			<string>meta.preprocessor keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
