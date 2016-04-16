@@ -376,6 +376,8 @@
         "viewport_color": [255,255,255,50]
     },
 
+
+
 //
 // LABELS
 //
@@ -450,16 +452,16 @@
         "class": "sidebar_container",
         // "layer0.texture": "",
         "layer0.opacity": 1,
-        "layer0.tint": [38, 38, 38], // -01
+        "layer0.tint": [40, 40, 40], // -01
         "layer0.inner_margin": [1,5,2,1],
-        "content_margin": [0,4,0,0]
+        "content_margin": [0,8,1,8]
     },
     // Sidebar tree
     {
         "class": "sidebar_tree",
         "row_padding": [8,4],
         "indent": 12,
-        "indent_offset": 14,
+        "indent_offset": 0,
         "indent_top_level": false,
         "dark_content": true
     },
@@ -467,7 +469,7 @@
     {
         "class": "tree_row",
         // "layer0.texture": "",
-        "layer0.tint": [57, 57, 57], // 01
+        "layer0.tint": [60, 60, 60], // 01
         "layer0.opacity": 0,
         "layer0.inner_margin": [1,1]
     },
@@ -480,7 +482,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [81, 81, 81], // 02
+        "color": [91, 91, 91], // 02
         "font.bold": true
     },
     {
@@ -517,7 +519,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [116, 115, 105] // 03
+        "color": [146, 145, 135] // 03
     },
     {
         "class": "sidebar_label",
@@ -543,7 +545,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [116, 115, 105] // 03
+        "color": [156, 155, 145] // 03
     },
     {
         "class": "sidebar_label",
