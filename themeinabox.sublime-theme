@@ -460,8 +460,8 @@
     {
         "class": "sidebar_tree",
         "row_padding": [8,4],
-        "indent": 12,
-        "indent_offset": 0,
+        "indent": 20,
+        "indent_offset": -4,
         "indent_top_level": false,
         "dark_content": true
     },
@@ -1128,6 +1128,7 @@
         "layer0.texture": "themeinabox/Main/folder@2x.png",
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
+        "layer0.tint": [200, 190, 250], // 02
         "content_margin": [7,0]
     },
     // Options
@@ -1144,8 +1145,9 @@
         "class": "icon_folder",
         "parents": [{ "class": "tree_row", "attributes": ["expanded"]}],
         "layer0.texture": "themeinabox/Main/folder_open@2x.png",
-        "layer0.inner_margin": -5,
+        "layer0.inner_margin": 0,
         "layer0.opacity": 1,
+        "layer0.tint": [200, 190, 250], // 02
         "content_margin": [7,0],
     },
     // Options

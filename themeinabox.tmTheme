@@ -16,7 +16,7 @@
 				<key>background</key>
 				<string>#262626</string>
 				<key>caret</key>
-				<string>#FFFF00</string>
+				<string>#FFE100</string>
 				<key>foreground</key>
 				<string>#e6e0db</string>
 				<key>invisibles</key>
@@ -31,6 +31,15 @@
 				<string>#000000</string>
 				<key>selectionBorder</key>
 				<string>#1c1c1c</string>
+
+
+
+				<key>guide</key>
+				<string>#424242</string>
+				<key>activeGuide</key>
+				<string>#6F9E42</string>
+				<key>stackGuide</key>
+				<string>#82887D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -41,7 +50,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#969696</string>
+				<string>#6E6E6E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -52,7 +61,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#78add2</string>
+				<string>#78ADD2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -63,7 +72,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#78add2</string>
+				<string>#78ADD2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -96,7 +105,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f8fa83</string>
+				<string>#E3E696</string>
 			</dict>
 		</dict>
 		<dict>
@@ -107,9 +116,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e09146</string>
-				<key>fontStyle</key>
-				<string> bold</string>
+				<string>#E09146</string>
 			</dict>
 		</dict>
 		<dict>
@@ -122,7 +129,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#e09146</string>
+				<string>#E0C843</string>
 			</dict>
 		</dict>
 		<dict>
@@ -135,7 +142,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#e09146</string>
+				<string>#E0C843</string>
 			</dict>
 		</dict>
 		<dict>
@@ -184,10 +191,8 @@
 			<string>entity.name.function</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#a4c460</string>
+				<string>#A6E043</string>
 			</dict>
 		</dict>
 		<dict>
@@ -207,7 +212,7 @@
 			<key>name</key>
 			<string>Function call</string>
 			<key>scope</key>
-			<string>meta.function-call</string>
+			<string>support.function</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -252,7 +257,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#a7ed65</string>
+				<string>#A7ED65</string>
 			</dict>
 		</dict>
 		<dict>
@@ -394,7 +399,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AFC4DB</string>
+				<string>#637285</string>
 			</dict>
 		</dict>
 		<dict>
@@ -405,7 +410,31 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8996A8</string>
+				<string>#49515C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>private public</string>
+			<key>scope</key>
+			<string>source.c++ meta.class-struct-block.c++ storage.modifier.c++</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E09146</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C++ Class</string>
+			<key>scope</key>
+			<string>source.c++ meta.class-struct-block.c++ storage.type.c++</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DE8E3E</string>
+				<key>fontStyle</key>
+				<string> bold</string>
 			</dict>
 		</dict>
 	</array>
