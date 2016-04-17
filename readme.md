@@ -2,6 +2,9 @@
 
 This is composition of [spacegray](https://github.com/kkga/spacegray), [Seti_ST3](https://github.com/ctf0/Seti_ST3) and [Phix Colour Scheme](https://github.com/stuartherbert/sublime-phix-color-scheme). 
 
+
+![Alt text](/Resource/themeinabox.png?raw=true "themeinabox")
+
 ## Changes to originals
 
 Spacegray was made more fresh and little bit more colorfull.
