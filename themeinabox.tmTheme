@@ -76,7 +76,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6E6E6E</string>
+				<string>#7D7D7D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -277,7 +277,7 @@
 			<key>name</key>
 			<string>Library function</string>
 			<key>scope</key>
-			<string>support.function</string>
+			<string>support.function, meta.function-call.python</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -421,7 +421,7 @@
 			<key>name</key>
 			<string>c C&#x2f;C++ Preprocessor Directive</string>
 			<key>scope</key>
-			<string>meta.preprocessor keyword</string>
+			<string>meta.preprocessor keyword, keyword.control.import, keyword.other.import</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
