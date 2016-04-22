@@ -52,7 +52,20 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#D88958</string>
+				<string>#E88958</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Test</string>
+			<key>scope</key>
+			<string>keyword.operator.comparison</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#e86524</string>
 			</dict>
 		</dict>
 		<dict>
@@ -232,19 +245,6 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#f8fa83</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Function call</string>
-			<key>scope</key>
-			<string>support.function</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#E3E696</string>
 			</dict>
 		</dict>
 		<dict>
@@ -463,6 +463,17 @@
 				<string> bold</string>
 			</dict>
 		</dict>
+        <dict>
+            <key>name</key>
+            <string>Bracket Curly</string>
+            <key>scope</key>
+            <string>brackethighlighter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#637285</string>
+            </dict>
+        </dict>
 	</array>
 	<key>uuid</key>
 	<string>5EAF4173-5DDE-4D64-A1E8-C1671C7EE339</string>
