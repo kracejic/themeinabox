@@ -72,7 +72,7 @@
 			<key>name</key>
 			<string>variable member access</string>
 			<key>scope</key>
-			<string>variable.other</string>
+			<string>variable.other, variable.language.python</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -140,7 +140,7 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable</string>
+			<string>variable, meta.function-call.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -277,7 +277,7 @@
 			<key>name</key>
 			<string>Library function</string>
 			<key>scope</key>
-			<string>support.function, meta.function-call.python</string>
+			<string>support.function, entity.name.function.python</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
